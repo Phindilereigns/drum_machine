@@ -1,11 +1,12 @@
 import React from "react";
+import DrumMachine from "./DrumMachine";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <div id="app"></div>
+    <div id="app">
+      <DrumMachine />
     </div>
   );
-}
+};
 
 export default App;
