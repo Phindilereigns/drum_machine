@@ -216,12 +216,15 @@ const App = () => {
   const stop = () => setPower(!power);
 
   const changeSoundGroup = () => {
-    setSoundName("");
-    setSoundType((prev) =>
-      prev === "heaterKit" ? "smoothPianoKit" : "heaterKit"
-    );
-    setSounds(soundsGroup[soundType]);
+    const newSoundType =
+      soundType === "heaterKit" ? "smoothPianoKit" : "heaterKit";
+    setSoundType(newSoundType);
+    setSounds(soundsGroup[newSoundType]);
+    setSoundName(
+      newSoundType === "heaterKit" ? "Heater Kit" : "Smooth Piano Kit"
+    ); 
   };
+
 
   const handleVolumeChange = (e) => setVolume(e.target.value);
 
