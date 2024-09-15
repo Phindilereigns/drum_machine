@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Phindilereigns/drum_machine.git/static/css/main.03a803eb.css",
+    "main.js": "/Phindilereigns/drum_machine.git/static/js/main.d6b7f9ee.js",
+    "static/js/453.a32f8043.chunk.js": "/Phindilereigns/drum_machine.git/static/js/453.a32f8043.chunk.js",
+    "index.html": "/Phindilereigns/drum_machine.git/index.html",
+    "main.03a803eb.css.map": "/Phindilereigns/drum_machine.git/static/css/main.03a803eb.css.map",
+    "main.d6b7f9ee.js.map": "/Phindilereigns/drum_machine.git/static/js/main.d6b7f9ee.js.map",
+    "453.a32f8043.chunk.js.map": "/Phindilereigns/drum_machine.git/static/js/453.a32f8043.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03a803eb.css",
+    "static/js/main.d6b7f9ee.js"
+  ]
+}
